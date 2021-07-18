@@ -7,8 +7,10 @@
 // Code your divide function here:
 
 let divide = function(numerator,denominator){
-  if (denominator === 0(){
+  if (denominator === 0) {
   throw Error ('Attempted to divide by zero.')
   }
-  return numerator / denominator;
+  return numerator/denominator;
 };
+
+divide(2, 9)
